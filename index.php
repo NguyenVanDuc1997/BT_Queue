@@ -7,10 +7,11 @@ $queue->enqueue(1);
 $queue->enqueue(2);
 $queue->enqueue(3);
 
+
 $queue->dequeue();
 $queue->dequeue();
 
-if ($queue->isEmpty()){
+if ($queue->isEmpty()) {
     echo "Queue rong!!";
 }
 
@@ -21,8 +22,7 @@ $queue->dequeue();
 $queue->dequeue();
 $queue->dequeue();
 
-if ($queue->isEmpty()){
+if ($queue->isEmpty()) {
     echo "Queue rong 2!!";
 }
 
-var_dump($queue);
